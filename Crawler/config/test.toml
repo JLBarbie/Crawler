@@ -1,0 +1,20 @@
+# This is a TOML document.
+
+title = "TOML Example"
+
+[crawler]
+website = "http://webscraper.io/test-sites/e-commerce/allinone"
+
+[database]
+server = "192.168.1.1"
+ports = 8001
+user = "johndoe"
+password = "pa$sW0rd"
+connection_max = 5000
+enabled = true
+
+[items]
+data1 = "value1"
+data2 = "value2"
+data3 = "value3"
+data4 = "value4"
